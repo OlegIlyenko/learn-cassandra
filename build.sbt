@@ -13,6 +13,7 @@ val akkaVersion = "2.4.8"
 libraryDependencies ++= Seq(
   "com.websudos" %% "phantom-dsl" % phantomVersion,
   "com.websudos" %% "phantom-reactivestreams" % phantomVersion,
+  "org.sangria-graphql" %% "sangria" % "0.7.2",
   "com.typesafe.akka" %% "akka-actor" % akkaVersion,
   "com.typesafe.akka" %% "akka-stream" % akkaVersion,
   "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,
